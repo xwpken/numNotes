@@ -28,6 +28,7 @@ std::vector<unsigned> get_first_n_primes(unsigned n)
 
     unsigned number = 2;
 
+    // while loop
     while (primes.size() < n)
     {
         if (is_prime(number))
@@ -62,6 +63,7 @@ int main()
     std::cout << "Vector size: " << data.size() << std::endl;   // how many now
     std::cout << "Vector capacity: " << data.capacity() << std::endl; // how many can
 
+    // range-based for loop
     for (auto x: data)
     {
         std::cout << x << typeid(x).name() << std::endl;
@@ -121,6 +123,7 @@ int main()
     numSet.insert(5);
     numSet.insert(7);
 
+    // iterators
     for (auto it = numSet.begin(); it != numSet.end(); ++it)
     {
         std::cout << *it << std::endl;
