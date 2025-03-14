@@ -1,3 +1,13 @@
+/*
+
+Exercise 4 of archer2-cpp course
+
+See https://github.com/EPCCed/archer2-cpp
+
+Last modified: 14/03/2025 by weipeng
+
+*/
+
 #include "lec4.hpp"
 
 void process(int x, int& x_ref)
