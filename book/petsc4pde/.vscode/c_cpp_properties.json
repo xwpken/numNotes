@@ -1,0 +1,20 @@
+{
+  "configurations": [
+    {
+      "name": "Mac",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "${env:HOME}/local/petsc/include",
+        "/opt/homebrew/opt/openblas/include",
+        "/usr/local/openmpi/include"
+      ],
+      "defines": [],
+      "macFrameworkPath": [],
+      "compilerPath": "/usr/local/openmpi/bin/mpicc",
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "macos-clang-arm64"
+    }
+  ],
+  "version": 4
+}
